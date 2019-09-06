@@ -5,8 +5,8 @@ body{
                         'Branco21 Branco22 Branco23 Branco24 Azul25 Vermelho26 Branco27'
                         'Branco31 Branco32 Vermelho33 Vermelho33 Branco35 Amarelo36 Branco27'
                         'Branco31 Azul42 Amarelo43 Amarelo43 Branco45 Branco45 Branco37';
-    grid-template-rows: 25vh 30vh 20vh 20vh;
-    grid-template-columns: 5vw 5vw 10vw 5vw 7vw 5vw 5vw;
+    grid-template-rows: 20vh 25vh 15vh 15vh;
+    grid-template-columns: 7.5vw 7.5vw 15vw 7.5vw 10.5vw 7.5vw 7.5vw;
     margin: 0;
 }
 body div{
