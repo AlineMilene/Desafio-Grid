@@ -1,0 +1,102 @@
+body{
+    display: grid;
+    /* Cores e números, Ex Branco21 = branco linha 2 coluna 1*/
+    grid-template-areas:'Branco11 Amarelo12 Azul13 Vermelho14 Vermelho14 Amarelo16 Branco17'
+                        'Branco21 Branco22 Branco23 Branco24 Azul25 Vermelho26 Branco27'
+                        'Branco31 Branco32 Vermelho33 Vermelho33 Branco35 Amarelo36 Branco27'
+                        'Branco31 Azul42 Amarelo43 Amarelo43 Branco45 Branco45 Branco37';
+    grid-template-rows: 25vh 30vh 20vh 20vh;
+    grid-template-columns: 5vw 5vw 10vw 5vw 7vw 5vw 5vw;
+    margin: 0;
+}
+body div{
+    border-style: solid;
+}
+.Amarelo12{
+    grid-area: Amarelo12;
+    background-color: yellow;
+}
+.Amarelo16{
+    grid-area: Amarelo16;
+    background-color: yellow;
+}
+.Amarelo36{
+    grid-area: Amarelo36;
+    background-color: yellow;
+}
+.Amarelo43{
+    grid-area: Amarelo43;
+    background-color: yellow;
+}
+.Azul13{
+    grid-area: Azul13;
+    background-color: blue;
+}
+.Azul25{
+    grid-area: Azul25;
+    background-color: blue;
+}
+.Azul42{
+    grid-area: Azul42;
+    background-color: blue;
+}
+.Branco11{
+    grid-area: Branco11;
+    background-color: white;
+}
+.Branco17{
+    grid-area: Branco17;
+    background-color: white;
+}
+.Branco21{
+    grid-area: Branco21;
+    background-color: white;
+}
+.Branco22{
+    grid-area: Branco22;
+    background-color: white;
+}
+.Branco23{
+    grid-area: Branco23;
+    background-color: white;
+}
+.Branco24{
+    grid-area: Branco24;
+    background-color: white;
+}
+.Branco27{
+    grid-area: Branco27;
+    background-color: white;
+}
+.Branco31{
+    grid-area: Branco31;
+    background-color: white;
+}
+.Branco32{
+    grid-area: Branco32;
+    background-color: white;
+}
+.Branco35{
+    grid-area: Branco35;
+    background-color: white;
+}
+.Branco45{
+    grid-area: Branco45;
+    background-color: white;
+}
+.Branco37{
+    grid-area: Branco37;
+    background-color: white;
+}
+.Vermelho14{
+    grid-area: Vermelho14;
+    background-color: red;
+}
+.Vermelho26{
+    grid-area: Vermelho26;
+    background-color: red;
+}
+.Vermelho33{
+    grid-area: Vermelho33;
+    background-color: red;
+}
